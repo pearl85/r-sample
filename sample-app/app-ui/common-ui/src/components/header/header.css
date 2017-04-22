@@ -1,0 +1,12 @@
+.header{
+background-color:grey;
+min-height:50px;
+}
+
+#header-title{
+text-align:center;
+padding-top:10px;
+margin:auto;
+color:#ddffdd;
+min-height:50px;
+}

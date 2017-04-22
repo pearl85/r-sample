@@ -1,0 +1,12 @@
+.footer{
+background-color:grey;
+min-height:50px;
+}
+
+#footer-content{
+text-align:center;
+padding-top:10px;
+margin:auto;
+color:#ddffdd;
+min-height:50px;
+}

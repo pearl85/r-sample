@@ -1,0 +1,2 @@
+::1 - - [22/Apr/2017:04:55:10 +0000] "GET /hello/?sd HTTP/1.1" 500 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+::1 - - [22/Apr/2017:04:55:12 +0000] "GET /hello/?sd HTTP/1.1" 500 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"

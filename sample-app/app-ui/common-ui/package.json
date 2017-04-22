@@ -1,0 +1,40 @@
+{
+    "name": "common-ui",
+    "version": "1.0.0",
+    "description": "A module for common ui",
+    "main": "main.js",
+    "scripts": {
+        "csslint": "csslint ./ --format=compact --exclude-list=node_modules",
+        "jslint": "eslint src --ext .js --ext .jsx",
+        "build-dev": "npm run csslint && npm run jslint && webpack",
+        "test": "jest",
+        "start": "ENV_API_PORT=5000 node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^15.5.4",
+        "react-dom": "^15.5.4"
+    },
+    "devDependencies": {
+        "axios": "^0.15.3",
+        "body-parser": "^1.17.1",
+        "express": "^4.15.2",
+        "babel-core": "^6.24.1",
+        "babel-eslint": "^7.2.2",
+        "babel-loader": "^6.4.1",
+        "babel-preset-es2015": "6.22.0",
+        "babel-preset-latest": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "css-loader": "^0.28.0",
+        "csslint": "^1.0.5",
+        "csslint-loader": "^1.0.0",
+        "eslint": "^3.19.0",
+        "eslint-loader": "^1.7.1",
+        "eslint-plugin-babel": "^4.1.1",
+        "eslint-plugin-react": "^6.10.3",
+        "extract-text-webpack-plugin": "^v2.0.0-rc.1",
+        "jest": "^19.0.2",
+        "webpack": "^2.4.1"
+    }
+}

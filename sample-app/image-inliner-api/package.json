@@ -1,0 +1,17 @@
+{
+    "name": "image-inliner-api",
+    "version": "1.0.0",
+    "description": "A sample project to get datauri from image URL using lwip",
+    "main": "index.js",
+    "scripts": {
+        "start": "ENV_PORT=9999 node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.15.2",
+        "lwip": "0.0.9",
+        "body-parser": "^1.17.1",
+        "compression": "^1.6.2"
+    }
+}

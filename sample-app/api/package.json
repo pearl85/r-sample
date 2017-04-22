@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server-entry.js",
+  "scripts": {
+    "start": "ENV_API_PORT=5000 node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+        "axios": "^0.15.3",
+        "body-parser": "^1.17.1",
+        "express": "^4.15.2"
+  }
+}
